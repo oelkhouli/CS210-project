@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+*.egg-info/
+
+# Data and database
+data/
+cifar_meta.db
+
+# VS Code
+.vscode/
+
+# Streamlit temp
+.streamlit/
+
+# Mac
+.DS_Store
