@@ -21,7 +21,7 @@
 3. Ingest & index CIFAR-10
 
    python src/ingestion.py --root_dir data/raw
-   python src/indexer.py --root_dir data/raw/train --db_path cifar_meta.db
+   python -m src.indexer --root_dir data\raw\train --db_path cifar_meta.db
 
 4. Preview a filtered subset
 
