@@ -11,9 +11,19 @@
 ## Quickstart
 
 1. Create & activate venv  
-   python -m venv venv
-    .\venv\Scripts\activate.bat on Windows
+ 
+ python -m venv venv // to download venv into folder
 
+   .\venv\Scripts\activate.bat // on Windows cmd to activate venv
+
+   .\venv\Scripts\Activate.ps1 // on Windows for Powershell
+   
+   // If you get an execution‑policy error, you can temporarily bypass it with:
+   
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   // Then enter:
+   .\venv\Scripts\Activate.ps1
+   
 2. Install dependencies
 
    pip install -r requirements.txt
